@@ -3,11 +3,11 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package my.data;
+package com.github.kharisovruslan.data;
 
 import java.util.Date;
 import java.util.List;
-import my.SimpleForumApplication;
+import com.github.kharisovruslan.SimpleForumApplication;
 import org.junit.After;
 import org.junit.AfterClass;
 import static org.junit.Assert.assertEquals;

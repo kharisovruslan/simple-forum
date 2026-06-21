@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package my.controller;
+package com.github.kharisovruslan.controller;
 
 import java.security.Principal;
 import java.util.ArrayList;
@@ -11,12 +11,12 @@ import java.util.Date;
 import java.util.List;
 import java.util.Optional;
 import javax.validation.Valid;
-import my.data.Messages;
-import my.data.MessagesRepository;
-import my.data.Topics;
-import my.data.TopicsRepository;
-import my.data.Users;
-import my.data.UsersRepository;
+import com.github.kharisovruslan.data.Messages;
+import com.github.kharisovruslan.data.MessagesRepository;
+import com.github.kharisovruslan.data.Topics;
+import com.github.kharisovruslan.data.TopicsRepository;
+import com.github.kharisovruslan.data.Users;
+import com.github.kharisovruslan.data.UsersRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package my;
+package com.github.kharisovruslan;
 
 import javax.sql.DataSource;
 import org.springframework.beans.factory.annotation.Autowired;

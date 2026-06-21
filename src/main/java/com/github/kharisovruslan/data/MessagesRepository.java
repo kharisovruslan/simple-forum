@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package my.data;
+package com.github.kharisovruslan.data;
 
 import java.util.List;
 import javax.transaction.Transactional;

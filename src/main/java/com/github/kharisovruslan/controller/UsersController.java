@@ -3,15 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package my.controller;
+package com.github.kharisovruslan.controller;
 
 import java.security.Principal;
 import java.util.Optional;
 import javax.validation.Valid;
-import my.data.UserAuthorities;
-import my.data.UserAuthoritiesRepository;
-import my.data.Users;
-import my.data.UsersRepository;
+import com.github.kharisovruslan.data.UserAuthorities;
+import com.github.kharisovruslan.data.UserAuthoritiesRepository;
+import com.github.kharisovruslan.data.Users;
+import com.github.kharisovruslan.data.UsersRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
