@@ -43,7 +43,7 @@ and open the template in the editor.
                             </tr>
                             <tr>
                                 <td colspan="3">
-                                    <p th:utext="${#strings.replace( #strings.escapeXml(m.text),T(java.lang.System).getProperty('line.separator'),'&lt;br /&gt;')}"></p>
+                                    <p th:utext="${#strings.replace(#strings.escapeXml(m.text), '\n', '&lt;br /&gt;')}"></p>
                                 </td>
                             </tr>
                         </div>

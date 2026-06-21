@@ -7,14 +7,7 @@ package my.controller;
 
 import java.util.Date;
 import java.util.List;
-import my.data.Messages;
-import my.data.MessagesRepository;
-import my.data.Topics;
-import my.data.TopicsRepository;
-import my.data.UserAuthorities;
-import my.data.UserAuthoritiesRepository;
-import my.data.Users;
-import my.data.UsersRepository;
+import my.data.*;
 import org.hamcrest.CoreMatchers;
 import org.junit.After;
 import static org.junit.Assert.assertTrue;
