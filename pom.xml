@@ -5,13 +5,13 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.1.11.RELEASE</version>
+        <version>2.7.9</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>my</groupId>
-    <artifactId>SimpleForum</artifactId>
+    <artifactId>simple-forum</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>SimpleForum</name>
+    <name>Simple forum</name>
     <description>Simple forum demo project</description>
 
     <properties>
@@ -57,6 +57,7 @@
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
+            <version>1.18.20</version>
             <optional>true</optional>
         </dependency>
         <dependency>
